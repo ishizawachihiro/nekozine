@@ -1,0 +1,77 @@
+/*
+ * common-smartphone.css
+ *
+ * @author Chihiro Ishizawa
+ * 2012/03/04 created
+ */
+
+.container{ padding: 0 5px }
+#content .container{  max-width: 310px; }
+
+.span9{ width: 310px }
+.row{ margin: 0 }
+
+.navbar .brand,
+.navbar-inner .nav{
+  display: block;
+  float: none;
+  clear: both;
+}
+
+.navbar{ position: fixed }
+.navbar .brand{ padding: 0 }
+.navbar-inner .nav li{ float: left; }
+
+header{ height: auto; line-height: auto }
+
+#content{ padding-top: 100px; }
+
+#intro_blurb{ display: none }
+#intro_blurb p{ font-size: 1.1em; line-height: 1.4em }
+#main_polaroid_list{ margin-top: 20px; }
+.polaroid_wrapper{ margin: 0 auto 20px auto; float: none; }
+/*
+.polaroid_wrapper{ width: 142px; height: 202px; margin: 0 0 10px 10px }
+.polaroid_image{ width: 142px; height: 142px; }
+.polaroid_overlay{ width: 122px; height: 122px; }
+.polaroid_overlay a{ font-size: 1em; line-height: 1em }
+.well{ width: 132px; min-height: 202px; height: 202px; padding: 10px 15px; overflow: hidden }
+*/
+.well{ float: none; width: 182px; min-height: 202px; height: 202px; margin: 0 auto 20px auto; padding: 10px 15px; overflow: hidden }
+.well.col2{ width: 182px }
+
+.well .more,
+.well .author,
+.well_item:nth-child(odd){ display: none; }
+
+.well_item{ margin: 0; overflow: hidden }
+.polaroid_wrapper.mini{ float: none; margin: 0 auto 5px auto }
+.blurb{ margin: 0; font-size: 1em }
+
+#leftcol{
+  width: 320px; margin: auto;
+  display: block; clear: both;
+}
+
+#photowrapper{ width: 300px; margin: auto; }
+#photowrapper img{ width: 300px; max-width: 300px; }
+
+#rightcol{
+  width: 300px;
+  display: block;
+  position: static;
+  left: auto;
+  margin: auto;
+  float: none;
+  clear: both;
+}
+
+#photowrapper{ width: 280px; margin: auto; }
+#photowrapper img{ width: 260px; max-width: 260px; }
+
+#photoleaf{ width: 300px; margin: 5px 5px 20px 5px; } 
+#photoleaf .row{ margin: 10px 10px 0 10px; }
+
+.rel_polaroid_list{ margin: 0 0 0 50px }
+
+#about_column{ margin: 0 }
